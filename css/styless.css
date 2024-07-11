@@ -1,0 +1,43 @@
+.box{
+   box-sizing: border-box;
+border-style: initial;
+border-radius: 50%;
+border-radius: 40%;
+width: 500px;
+background:url(../img/her.jpg);
+/*height: 70vh;*/
+
+padding: 0px 120px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ .column {
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    border-radius:  50px  ;
+    border-color: aqua;
+  
+    align-items: center;
+    display: flex;
+  margin-bottom: 10px;
+}
+
+input.column{
+    padding: 20px 150px;
+    border: 2px solid rgb(38, 209, 38);
+}
+
+.Sign{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px 120px;
+}
+
+

@@ -1,0 +1,80 @@
+.box{
+	box-sizing: border-box;
+ border-style: initial;
+ border-radius: 50%;
+ border-radius: 40%;
+ width: 600px;
+ /*background: #00fcda;*/
+ background:url(../img/g.jpg);
+ /*height: 1200%;*/
+ height: 45vh;
+ padding: 30px 200px;
+ padding-left: 50px;
+ }
+
+
+.row{
+	display: flex;
+	box-sizing: border-box;
+	border-style: initial;
+	/*height: 70vh;*/
+}
+
+.column {
+	padding-top: 20px;
+    width: 400px;
+    height: 50px;
+    justify-content: center;
+    border-radius:  50px  ;
+    border-color: aqua;
+  
+    align-items: center;
+    display: flex;
+  margin-bottom: 10px;
+}
+
+input.column{
+    padding: 20px 150px;
+    border: 2px solid rgb(38, 209, 38);
+}
+.Sign{
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	padding: -1px 70px;
+  }
+
+  
+.sig{
+	display: flex;
+	justify-content:center;
+	padding: 12px 50px;
+	text-transform: uppercase;
+}
+
+.panel{
+	justify-content:center;
+	text-transform: uppercase;
+	padding-left:60px;
+}
+
+
+
+
+
+
+
+
+.square{
+    box-sizing: border-box;
+ border-style: initial;
+ border-radius: 50%;
+ border-radius: 40%;
+ width: 600px;
+ /*background: #00fcda;*/
+ background:url(../img/ke.jpg);
+ /*height: 1200%;*/
+ height: 45vh;
+ padding: 70px 120px;
+ padding-left: 75px;
+}

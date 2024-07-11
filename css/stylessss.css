@@ -1,0 +1,89 @@
+
+ 
+/* Styling the area of the slides */   
+.slider_image {
+    height: 40%;
+    width: 120%;
+	padding-right: 30%;
+}
+.main_image {
+    height: 70%;
+    width: 200%;
+}
+.main_image img {
+    height: 50%;
+    width: 50%;
+padding-left: 100px;
+border: 1px solid #fffcfc;
+}                                         
+ 
+#slideshow {
+    overflow: hidden;
+    height: 550px;
+    width: 728px;
+    margin: 0 auto;
+}
+ 
+/* Style each of the sides
+with a fixed width and height */
+ 
+.slide {
+    float: left;
+    height: 510px;
+    width: 728px;
+}
+ 
+/* Add animation to the slides */
+ 
+.slide-wrapper {
+     
+    /* Calculate the total width on the
+  basis of number of slides */
+    width: calc(728px * 4);
+     
+    /* Specify the animation with the
+  duration and speed */
+    animation: slide 40s ease infinite;
+}
+ 
+/* Set the background color
+of each of the slides */
+ 
+.slide:nth-child(1) {
+   background:url(../img/lezaa.jpg);
+
+}
+ 
+.slide:nth-child(2) {
+    background:url(../img/chy.jpg.jpg);
+    
+}
+ 
+.slide:nth-child(3) {
+    background:url(../img/baby.jpg);
+}
+ 
+.slide:nth-child(4) {
+    background:url(../img/alovera.jpg);
+}
+ 
+/* Define the animation
+for the slideshow */
+ 
+@keyframes slide {
+     
+    /* Calculate the margin-left for
+  each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
